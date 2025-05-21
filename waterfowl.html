@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link href="styles/styles_nav.css" rel="stylesheet" />
+        <link href="styles/styles_footer.css" rel="stylesheet" />
+        <link href="styles/styles_chickens.css" rel="stylesheet" />
+        <title>Fur and Feathers Farm - Waterfowl</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Fur and Feathers Farm</a>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a id="navbarDropdownChickens" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Chickens
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownChickens">
+                                <li><a class="dropdown-item" href="chickens.html">All</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Chicken Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="chickens.html#Polish">Polish</a></li>
+                                <li><a class="dropdown-item" href="chickens.html#Silkie">Silkie</a></li>
+                                <li><a class="dropdown-item" href="chickens.html#Plymouth">Plymouth</a></li>
+                                <li><a class="dropdown-item" href="chickens.html#Barbu-Anvers">Barbu d'Anvers</a></li>
+                                <li><a class="dropdown-item" href="chickens.html#Light-Sussex">Light Sussex</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdownWaterfowl" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Waterfowl
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownWaterfowl">
+                                <li><a class="dropdown-item" href="waterfowl.html">All</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Geese">Geese</a></li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Ducks">Ducks</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Goose Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Toulouse">Toulouse</a></li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Embden">Embden</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Duck Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Call-Duck">Call Duck</a></li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Khaki-Campbell">Khaki Campbell</a></li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Indian-Runner">Indian Runner</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdownGameBirds" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Game Birds
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownGameBirds">
+                                <li><a class="dropdown-item" href="gamebirds.html">All</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Pheasants">Pheasants</a></li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Partridges">Partridges</a></li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Guinea-Fowl">Guinea Fowl</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Pheasant Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Red-Golden-Pheasant">Red Golden</a></li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Yellow-Golden-Pheasant">Yellow Golden</a></li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Ring-necked-Pheasant">Ring-necked</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Partridge Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Chukar-Partridge">Chukar</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Guinea Fowl Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="gamebirds.html#White-Guinea-Fowl">White</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="treatRecipe.html">Treat Recipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="pens.html">Pens</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div id="titleSection">
+                <h1>Our Waterfowl</h1>
+                <p>
+                    Waterfowl include ducks and gooses. These birds are not afraid of cold water; they would play in it all winter if it did not turn into ice. We have a few breeds of ducks and geese.
+                </p>
+            </div>
+            <div id="Geese" class="animalsTypeSection">
+                <h2>Geese</h2>
+                <div id="Toulouse" class="container breedSection">
+                    <div class="row w-100">
+                        <div class="col-lg-6">
+                            <h2>Toulouse</h2>
+                            <p>
+                                Toulouse geese are beautiful birds. The majority of their feathers are a mix of brown and gray. Their back is white, contrasting with the rest of their body. Males and females both share those
+                                characteristics. These geese are noisy and will start screaming if they see anyone coming. They are also extremely protective. They will try to bite you if they see you collect their eggs. However, they can
+                                be more docile if you raise them as gooseling.
+                            </p>
+                            <div class="proConSection">
+                                <div class="proSection">
+                                    <p class="listTitle">Pros:</p>
+                                    <ul>
+                                        <li>They will alert if they see any intruders or predators</li>
+                                        <li>Produce large eggs</li>
+                                    </ul>
+                                </div>
+                                <p class="listTitle">Cons:</p>
+                                <ul>
+                                    <li>Noisy</li>
+                                    <li>They preferably need a water source big enough to swim</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 colCarousel">
+                            <div id="imageCarouselToulouse" class="carousel slide h-100" data-bs-interval="false">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="images/waterfowl/toulouse-2.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Toulouse Goose in water" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/waterfowl/toulouse-1.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Toulouse Goose" />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselToulouse" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselToulouse" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Embden" class="container breedSection">
+                    <div class="row w-100">
+                        <div class="col-lg-6">
+                            <h2>Embden</h2>
+                            <p>
+                                Embden is one of the most common goose breeds. Both females and males are entirely white. Like the Toulouse breed, they are protective and will start screaming. They are efficient alarm systems. In spring
+                                2024, our male goose named Trompette started screaming when a fox was near the farm. Thanks to him, we could react, and no animal was hurt. Embden geese can also be more docile if raised as a duckling. Feet
+                                and Foot are two geese we had as babies. They are way less aggressive towards us than their friends we had as adults.
+                            </p>
+                            <div class="proConSection">
+                                <div class="proSection">
+                                    <p class="listTitle">Pros:</p>
+                                    <ul>
+                                        <li>They will alert if they see any intruders or predators</li>
+                                        <li>Produce large eggs</li>
+                                    </ul>
+                                </div>
+                                <p class="listTitle">Cons:</p>
+                                <ul>
+                                    <li>Noisy</li>
+                                    <li>They preferably need a water source big enough to swim</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 colCarousel">
+                            <div id="imageCarouselEmbden" class="carousel slide h-100" data-bs-interval="false">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="images/waterfowl/embden-2.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="3 Embden Geese" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/waterfowl/embden-3.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Embden Goose sitting on eggs" />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselEmbden" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselEmbden" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Ducks" class="animalsTypeSection">
+                <h2>Ducks</h2>
+                <div id="Call-Duck" class="container breedSection">
+                    <div class="row w-100">
+                        <div class="col-lg-6">
+                            <h2>Call Duck</h2>
+                            <p>
+                                Call ducks are the smallest ducks we have on our farm. Those cute ducks come in multiple color varieties. Currently, we have three gray call ducks. Males have feathers in different shades of gray and a
+                                distinctive green head. Females are brown. They look like a smaller version of the Mallard duck. Call ducks can escape since they can fly.
+                            </p>
+                            <div class="proConSection">
+                                <div class="proSection">
+                                    <p class="listTitle">Pros:</p>
+                                    <ul>
+                                        <li>Beautiful ducks with various color varieties</li>
+                                        <li>Small</li>
+                                    </ul>
+                                </div>
+                                <p class="listTitle">Cons:</p>
+                                <ul>
+                                    <li>They can fly</li>
+                                    <li>They preferably need a water source big enough to swim</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 colCarousel">
+                            <div id="imageCarouselCallDuck" class="carousel slide h-100" data-bs-interval="false">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="images/waterfowl/callduck-1.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Two Call Ducks" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Khaki-Campbell" class="container breedSection">
+                    <div class="row w-100">
+                        <div class="col-lg-6">
+                            <h2>Khaki Campbell</h2>
+                            <p>
+                                Khaki Campbells are the best breed for egg production. They produce a large number of eggs. The females are light brown, and the males are also light brown, but they have black feathers on their backs and a
+                                green head. We have one male and a few females, but they do not let themselves be approached.
+                            </p>
+                            <div class="proConSection">
+                                <div class="proSection">
+                                    <p class="listTitle">Pros:</p>
+                                    <ul>
+                                        <li>Best breed for eggs</li>
+                                    </ul>
+                                </div>
+                                <p class="listTitle">Cons:</p>
+                                <ul>
+                                    <li>They preferably need a water source big enough to swim.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 colCarousel">
+                            <div id="imageCarouselKhakiCampbell" class="carousel slide h-100" data-bs-interval="false">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="images/waterfowl/khaki-campbell-1.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Male Khaki Campbell" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/waterfowl/khaki-campbell-2.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Female Khaki Campbell" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/waterfowl/khaki-campbell-3.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Khaki Campbell Duckling" />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselKhakiCampbell" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselKhakiCampbell" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Indian-Runner" class="container breedSection">
+                    <div class="row w-100">
+                        <div class="col-lg-6">
+                            <h2>Indian Runner</h2>
+                            <p>
+                                Indian Runner ducks are one of the most unique domestic duck breeds. Their bodies and walking style are different from those of most ducks. Their bodies look like those of penguins, and they have a unique
+                                walking style. They can come in various colors. We only have one Indian Runner duck named Arthur.
+                            </p>
+                            <div class="proConSection">
+                                <div class="proSection">
+                                    <p class="listTitle">Pros:</p>
+                                    <ul>
+                                        <li>Multiple color varieties</li>
+                                        <li>Unique</li>
+                                        <li>They can not fly</li>
+                                    </ul>
+                                </div>
+                                <p class="listTitle">Cons:</p>
+                                <ul>
+                                    <li>It is not the prettiest breed of ducks</li>
+                                    <li>They preferably need a water source big enough to swim</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 colCarousel">
+                            <div id="imageCarouselIndianRunner" class="carousel slide h-100" data-bs-interval="false">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="images/waterfowl/indian-1.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Indian Runner Duck" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-dark listFooter">
+            <ul class="list-unstyled">
+                <li class="itemListFooter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <span class="mb-3 mb-md-0 text-body-secondary">vtoffoli@colostate.edu</span>
+                </li>
+                <li class="itemListFooter">
+                    <svg id="iconHouse" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"
+                        />
+                    </svg>
+                    <span class="mb-3 mb-md-0 text-body-secondary">Quebec, Canada</span>
+                </li>
+                <li><br /></li>
+                <li class="itemListFooter">
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Fur and Feathers Farm. All rights reserved.</span>
+                </li>
+            </ul>
+        </footer>
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+main {
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 45px;
+
+    border-bottom: 1px solid #071120 !important;
+    text-align: center;
+}
+
+.listTitle {
+    font-weight: bold;
+}
+
+.breedSection {
+    border-top: 4px solid #071120 !important;
+    border-bottom: 4px solid #071120 !important;
+    margin-bottom: 75px;
+
+    background-color: rgba(207, 227, 245, 0.473);
+    padding-right: 0px;
+}
+
+.proConSection {
+    border: 2px dashed #071120 !important;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.colCarousel {
+    padding-right: 0px;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+#titleSection p {
+    text-align: center;
+    font-size: larger;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}

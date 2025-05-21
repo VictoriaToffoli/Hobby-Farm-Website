@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+#titleSection p {
+    text-align: center;
+    font-size: larger;
+}
+
+#titleSection {
+    margin-bottom: 50px;
+}
+
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ingredientsGroup {
+    margin-bottom: 30px;
+}
+
+main li {
+    font-size: larger;
+}
+
+main {
+    padding-bottom: 55px;
+}
+
+@media (max-width: 991px) {
+    #colImage {
+        order: -1 !important;
+        margin-bottom: 20px;
+    }
+}
+
+ol li {
+    margin-bottom: 10px;
+}

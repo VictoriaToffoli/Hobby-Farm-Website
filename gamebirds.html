@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+        <link href="styles/styles_nav.css" rel="stylesheet" />
+        <link href="styles/styles_footer.css" rel="stylesheet" />
+        <link href="styles/styles_chickens.css" rel="stylesheet" />
+
+        <title>Fur and Feathers Farm - Game Birds</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Fur and Feathers Farm</a>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a id="navbarDropdownChickens" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Chickens
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownChickens">
+                                <li><a class="dropdown-item" href="chickens.html">All</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Chicken Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="chickens.html#Polish">Polish</a></li>
+                                <li><a class="dropdown-item" href="chickens.html#Silkie">Silkie</a></li>
+                                <li><a class="dropdown-item" href="chickens.html#Plymouth">Plymouth</a></li>
+                                <li><a class="dropdown-item" href="chickens.html#Barbu-Anvers">Barbu d'Anvers</a></li>
+                                <li><a class="dropdown-item" href="chickens.html#Light-Sussex">Light Sussex</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdownWaterfowl" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Waterfowl
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownWaterfowl">
+                                <li><a class="dropdown-item" href="waterfowl.html">All</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Geese">Geese</a></li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Ducks">Ducks</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Goose Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Toulouse">Toulouse</a></li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Embden">Embden</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Duck Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Call-Duck">Call Duck</a></li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Khaki-Campbell">Khaki Campbell</a></li>
+                                <li><a class="dropdown-item" href="waterfowl.html#Indian-Runner">Indian Runner</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdownGameBirds" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Game Birds
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownGameBirds">
+                                <li><a class="dropdown-item" href="gamebirds.html">All</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Pheasants">Pheasants</a></li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Partridges">Partridges</a></li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Guinea-Fowl">Guinea Fowl</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Pheasant Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Red-Golden-Pheasant">Red Golden</a></li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Yellow-Golden-Pheasant">Yellow Golden</a></li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Ring-necked-Pheasant">Ring-necked</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Partridge Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="gamebirds.html#Chukar-Partridge">Chukar</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <p class="dropdown-header navSubHeading">Guinea Fowl Breeds</p>
+                                </li>
+                                <li><a class="dropdown-item" href="gamebirds.html#White-Guinea-Fowl">White</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="treatRecipe.html">Treat Recipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="pens.html">Pens</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div id="titleSection">
+                <h1>Our Game Birds</h1>
+                <p>
+                    We have many different game birds. Most must live in a closed aviary to avoid losing them. While they are not as endearing as chickens, they are stunning.
+                </p>
+            </div>
+
+            <div id="Pheasants" class="animalsTypeSection">
+                <h2>Pheasants</h2>
+
+                <div id="Red-Golden-Pheasant" class="container breedSection">
+                    <div class="row w-100">
+                        <div class="col-lg-6">
+                            <h2>Red Golden Pheasant</h2>
+                            <p>
+                                The red golden pheasant is one of the most beautiful and colored breeds of pheasants. Male pheasant feathers are bright red for their body and bright yellow for their head. They also have an impressive long
+                                tail. Females are mostly brown with different shades and a shorter tail.
+                            </p>
+                            <div class="proConSection">
+                                <div class="proSection">
+                                    <p class="listTitle">Pros:</p>
+                                    <ul>
+                                        <li>Colorful</li>
+                                    </ul>
+                                </div>
+                                <p class="listTitle">Cons:</p>
+                                <ul>
+                                    <li>Need a closed aviary</li>
+                                    <li>Fearful and wild</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 colCarousel">
+                            <div id="imageCarouselRedGolden" class="carousel slide h-100" data-bs-interval="false">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="images/gamebirds/red-3.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Male Red Golden Pheasant" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/gamebirds/red-4.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Female Red Golden Pheasant" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/gamebirds/red-2.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Male Red Golden Pheasant" />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselRedGolden" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselRedGolden" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Yellow-Golden-Pheasant" class="container breedSection">
+                    <div class="row w-100">
+                        <div class="col-lg-6">
+                            <h2>Yellow Golden Pheasant</h2>
+                            <p>
+                                The yellow golden pheasant is a variant of the red golden pheasant. Instead of having red feathers, male pheasants have yellow feathers on their bodies. Females are also paler than red golden females. They
+                                are a shade of beige and tan. Currently, we only have females on our farm.
+                            </p>
+                            <div class="proConSection">
+                                <div class="proSection">
+                                    <p class="listTitle">Pros:</p>
+                                    <ul>
+                                        <li>Colorful</li>
+                                    </ul>
+                                </div>
+                                <p class="listTitle">Cons:</p>
+                                <ul>
+                                    <li>Need a closed aviary</li>
+                                    <li>Fearful and wild</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 colCarousel">
+                            <div id="imageCarouselYellowGolden" class="carousel slide h-100" data-bs-interval="false">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="images/gamebirds/yellow-1.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Female Yellow Golden Pheasant" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/gamebirds/yellow-2.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Female Yellow Golden Pheasant" />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselYellowGolden" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselYellowGolden" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Ring-necked-Pheasant" class="container breedSection">
+                    <div class="row w-100">
+                        <div class="col-lg-6">
+                            <h2>Ring-necked Pheasant</h2>
+                            <p>
+                                The ring-necked pheasant is the common wild pheasant in North America. Male bodies are of different shades of brown, beige, gray, and black. At their neck, they have a white band, hence their name. The
+                                feathers on their heads are dark blue and dark green. They also have large red wattles. We have one male at our farm.
+                            </p>
+                            <div class="proConSection">
+                                <div class="proSection">
+                                    <p class="listTitle">Pros:</p>
+                                    <ul>
+                                        <li>Best breed for meat</li>
+                                    </ul>
+                                </div>
+                                <p class="listTitle">Cons:</p>
+                                <ul>
+                                    <li>Need a closed aviary</li>
+                                    <li>Fearful and wild</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 colCarousel">
+                            <div id="imageCarouselRingNecked" class="carousel slide h-100" data-bs-interval="false">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="images/gamebirds/ring-3.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Male Ring-necked Pheasant" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/gamebirds/ring-2.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Male Ring-necked Pheasant" />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselRingNecked" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselRingNecked" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Partridges" class="animalsTypeSection">
+                <h2>Partridges</h2>
+
+                <div id="Chukar-Partridge" class="container breedSection">
+                    <div class="row w-100">
+                        <div class="col-lg-6">
+                            <h2>Chukar Partridge</h2>
+                            <p>
+                                The Chakar partridge is among the most common breeds raised on hobby farms. Its feathers are mostly grey, with black and white stripes on the wings. Males and females have similar feathers. They love to
+                                roost. We have two partridges on our farm.
+                            </p>
+                            <div class="proConSection">
+                                <div class="proSection">
+                                    <p class="listTitle">Pros:</p>
+                                    <ul>
+                                        <li>Best breed for meat</li>
+                                    </ul>
+                                </div>
+                                <p class="listTitle">Cons:</p>
+                                <ul>
+                                    <li>Need a closed aviary</li>
+                                    <li>Fearful and wild</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 colCarousel">
+                            <div id="imageCarouselChukarPartridge" class="carousel slide h-100" data-bs-interval="false">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="images/gamebirds/chukar-1.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Chukar Partridge" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/gamebirds/chukar-2.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Chukar Partridge" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/gamebirds/chukar-3.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Chukar Partridge" />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselChukarPartridge" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselChukarPartridge" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Guinea-Fowl">
+                <h2>Guinea Fowl</h2>
+
+                <div id="White-Guinea-Fowl" class="container breedSection">
+                    <div class="row w-100">
+                        <div class="col-lg-6">
+                            <h2>White Guinea Fowl</h2>
+                            <p>
+                                Guinea fowl are one of the most intriguing game birds. The white variety has white feathers and no feathers on the head. They also have a small bump on their head. They love searching for bugs. If they are
+                                used to it when they are young, guinea fowl can live with chicken. However, they fly high and will probably escape a few times. Our guinea fowl got her name Pommette (the French word for crabapple) when she
+                                decided to roost at the highest branch of our apple tree during a cold winter night.
+                            </p>
+                            <div class="proConSection">
+                                <div class="proSection">
+                                    <p class="listTitle">Pros:</p>
+                                    <ul>
+                                        <li>Eat undesirable bugs</li>
+                                        <li>Great for meat production</li>
+                                        <li>Live with chickens</li>
+                                    </ul>
+                                </div>
+                                <p class="listTitle">Cons:</p>
+                                <ul>
+                                    <li>Will escape and roost on nearby trees or structures</li>
+                                    <li>Noisy</li>
+                                    <li>Fearful and wild but less than pheasants</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 colCarousel">
+                            <div id="imageCarouselWhiteGuineaFowl" class="carousel slide h-100" data-bs-interval="false">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="images/gamebirds/white-1.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="White Guinea Fowl" />
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="images/gamebirds/white-2.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="White Guinea Fowl" />
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarouselWhiteGuineaFowl" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#imageCarouselWhiteGuineaFowl" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-dark listFooter">
+            <ul class="list-unstyled">
+                <li class="itemListFooter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <span class="mb-3 mb-md-0 text-body-secondary">vtoffoli@colostate.edu</span>
+                </li>
+
+                <li class="itemListFooter">
+                    <svg id="iconHouse" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"
+                        />
+                    </svg>
+                    <span class="mb-3 mb-md-0 text-body-secondary">Quebec, Canada</span>
+                </li>
+                <li><br /></li>
+                <li class="itemListFooter">
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Fur and Feathers Farm. All rights reserved.</span>
+                </li>
+            </ul>
+        </footer>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
